@@ -30,7 +30,7 @@ public class ReverseProxy {
         SslContextFactory sslContextFactory = new SslContextFactory();
 
         // Defining keystore path and passwords
-        sslContextFactory.setKeyStorePath(ReverseProxy.class.getResource("/my-key.jks").toExternalForm());
+        sslContextFactory.setKeyStorePath(ReverseProxy.class.getResource("/server-keystore.jks").toExternalForm());
         sslContextFactory.setKeyStorePassword("reverse123");
         sslContextFactory.setKeyManagerPassword("reverse123");
         sslContextFactory.setNeedClientAuth(true);

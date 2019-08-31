@@ -29,6 +29,7 @@
       <artifactId>jetty-servlet</artifactId>
       <version>9.4.3.v20170317</version>
     </dependency>
+
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-proxy</artifactId>
